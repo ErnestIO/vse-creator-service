@@ -1,0 +1,22 @@
+{
+  "name": "r3labs/vse-creator-service",
+  "description": "VSE Creator Service is an API REST service that to manage VMWare vShield Edge",
+  "authors": [
+    {
+      "name": "Raül Pérez",
+      "email": "raul.perez@r3labs.io"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "slim/slim": "2.6.2",
+    "vmware/vcloud-sdk-patched": "550.5.0",
+    "pear/HTTP_Request2": "*",
+    "squizlabs/php_codesniffer": "~2.0",
+    "monolog/monolog": "^1.13@dev",
+    "tuupola/slim-basic-auth": "1.x-dev"
+  },
+  "autoload": {
+    "psr-0": { "VSE": ["src/", "test/"] }
+  }
+}
