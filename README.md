@@ -2,6 +2,11 @@
 
 Creates and builds a vse using admin credentials.
 
+## Build status
+
+* master [![CircleCI](https://circleci.com/gh/ErnestIO/vse-creator-service/tree/master.svg?style=svg)](https://circleci.com/gh/ErnestIO/vse-creator-service/tree/master)
+* develop [![CircleCI](https://circleci.com/gh/ErnestIO/vse-creator-service/tree/develop.svg?style=svg)](https://circleci.com/gh/ErnestIO/vse-creator-service/tree/develop)
+
 ## Example
 
 To call the service:
